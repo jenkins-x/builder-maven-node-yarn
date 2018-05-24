@@ -1,4 +1,4 @@
-FROM jenkinsxio/builder-maven:0.0.0.0.249
+FROM jenkinsxio/builder-maven:0.0.249
 
 # Node
 RUN curl --silent --location https://rpm.nodesource.com/setup_9.x | bash - && \
